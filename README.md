@@ -49,7 +49,14 @@ All brand and scoring data is persisted in the **webapp**.
 
 ---
 
-## 💻 Demo link
+## 💻 Demo Link
 
 - https://psalia-v1.bolt.host/
+
+---
+
+## 📹 Loom Demo Video
+
+- https://psalia-v1.bolt.host/](https://www.loom.com/share/aa7e9702783c4369ab0e9ecfa40f6e07
+
 
