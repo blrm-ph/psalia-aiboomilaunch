@@ -42,10 +42,36 @@ All brand and scoring data is persisted in the **webapp**.
 
 ## 🏗️ Tech Stack
 
-- **Frontend:** Bolt.new (React-based UI)
-- **Backend:** Node.js (API layer to call OpenAI Assistants API)
-- **AI Model:** `gpt-4.1` (with Code Interpreter enabled)
-- **Version Control:** Bolt.new
+Built on Bolt.new
+
+**Frontend**
+React 18.3.1 - UI framework
+TypeScript 5.5.3 - Type safety
+Vite 5.4.2 - Build tool and dev server
+Tailwind CSS 3.4.1 - Styling framework with PostCSS and Autoprefixer
+Lucide React 0.344.0 - Icon library
+
+**Backend & Services**
+Bolt Database - Backend platform providing:
+PostgreSQL database
+Authentication (email/OTP)
+Edge Functions (serverless functions)
+Bolt Database Edge Functions (3 deployed):
+score-creatives - Processes and scores creative uploads
+send-feedback - Sends feedback emails
+send-otp - Handles OTP email delivery
+OpenAI 6.8.1 - AI integration for creative analysis (GPT-4 Vision)
+
+**Database**
+PostgreSQL (via Bolt Database) with tables:
+creative_approvals - Stores approval states
+users and otp tables - Authentication management
+
+**Development Tools**
+ESLint - Code linting with React-specific plugins
+TypeScript ESLint - TypeScript linting rules
+
+The application is a single-page React app that uses Bolt Database for authentication, data persistence, and serverless functions, with OpenAI's GPT-4 Vision API for intelligent creative evaluation.
 
 ---
 
