@@ -83,6 +83,6 @@ The application is a single-page React app that uses Bolt Database for authentic
 
 ## 📹 Loom Demo Video
 
-- https://psalia-v1.bolt.host/](https://www.loom.com/share/aa7e9702783c4369ab0e9ecfa40f6e07
+- https://www.loom.com/share/aa7e9702783c4369ab0e9ecfa40f6e07
 
 
